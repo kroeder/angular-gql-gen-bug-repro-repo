@@ -1,0 +1,7 @@
+schema: schema.json
+documents:
+  - ./src/!(__generated)/**/*.ts
+generates:
+  src/__generated/types.ts:
+    - typescript-common
+    - typescript-client
